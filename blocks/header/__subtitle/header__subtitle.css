@@ -1,0 +1,10 @@
+.header__subtitle {
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.3;
+}
+@media (max-width: 375px) {
+    .header__subtitle {
+        text-align: left;
+    }
+}

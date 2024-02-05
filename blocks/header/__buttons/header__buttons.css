@@ -1,0 +1,13 @@
+.header__buttons {
+    margin-top: 39px;
+    display: flex;
+    justify-content: space-between;
+}
+@media (max-width: 375px) {
+    .header__buttons {
+        margin-top: 33px;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 14px;
+    }
+}

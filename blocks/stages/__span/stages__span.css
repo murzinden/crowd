@@ -1,0 +1,14 @@
+.stages__span {
+    display: inline-block;
+    font-size: 19px;
+    color: #3057A2;
+    max-width: 320px;
+    text-transform: none;
+    padding-left: 7px;
+}
+@media (max-width: 375px) {
+    .stages__span  {
+        font-size: 18px;
+        padding-left: 0;
+    }
+}

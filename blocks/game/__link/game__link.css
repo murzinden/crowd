@@ -1,0 +1,12 @@
+.game__link {
+    display: block;
+    color: #3057A2;
+    font-size: 20px;
+    line-height: 1.2;
+    margin-top: 33px;
+}
+@media (max-width: 375px) {
+    .game__link  {
+        font-size: 18px;
+    }
+}

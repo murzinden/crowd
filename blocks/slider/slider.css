@@ -1,0 +1,6 @@
+@media (max-width: 375px) {
+    .slider {
+        overflow: hidden;
+        width: 100%;
+    }
+}

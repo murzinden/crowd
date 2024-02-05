@@ -1,0 +1,16 @@
+.header {
+    position: relative;
+    background: #E9DED4 url("../../img/city1366.png") center / contain no-repeat;
+    min-height: 700px;
+}
+@media (min-width: 1367px) {
+    .header {
+        background: #E9DED4 url("../../img/city1920.png") bottom / contain no-repeat;
+    }
+}
+@media (max-width: 375px) {
+    .header {
+        background: #E9DED4 url("../../img/city375.png") bottom / contain no-repeat;
+        min-height: 780px;
+    }
+}

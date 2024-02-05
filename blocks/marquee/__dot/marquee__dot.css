@@ -1,0 +1,11 @@
+.marquee__dot {
+    padding: 0 5px;
+    font-size: 24px;
+    vertical-align: top;
+}
+@media (max-width: 375px) {
+    .marquee__dot {
+        padding: 0 10px;
+        font-size: 18px;
+    }
+}

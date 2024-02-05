@@ -1,0 +1,18 @@
+.member__slider-btn {
+    position: absolute;
+    top: 5%;
+    transform: translateY(-50%);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+@media (max-width: 375px) {
+    .member__slider-btn {
+        width: 36px;
+        height: 36px;
+        top: 107%;
+    }
+}

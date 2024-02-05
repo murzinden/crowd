@@ -1,0 +1,10 @@
+.logo__image {
+    display: block;
+    width: 19px;
+    height: 27px;
+}
+@media (max-width: 375px) {
+    .logo__image {
+        gap: 5px;
+    }
+}

@@ -1,0 +1,13 @@
+.game__picture {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7px 20px 20px 20px;
+    position: relative;
+}
+@media (max-width: 375px) {
+    .game__picture {
+        min-height: 370px;
+        padding: 0 0 0 0;
+    }
+}

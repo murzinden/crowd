@@ -1,0 +1,13 @@
+.stages__airplane {
+    position: absolute;
+    bottom: 0;
+    right: -63px;
+}
+@media (max-width: 375px) {
+    .stages__airplane {
+        width: 335px;
+        height: 182px;
+        bottom: 270px;
+        right: 0;
+    }
+}

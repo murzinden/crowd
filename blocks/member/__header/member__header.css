@@ -1,0 +1,14 @@
+.member__header {
+    font-size: 54px;
+    color: #313131;
+    line-height: 1.2;
+    font-family: 'Merriweather', serif;
+    text-transform: uppercase;
+    margin-bottom: 39px;
+}
+@media (max-width: 375px) {
+    .member__header {
+        font-size: 36px;
+        margin-bottom: 16px;
+    }
+}

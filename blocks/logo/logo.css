@@ -1,0 +1,10 @@
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+}
+@media (max-width: 375px) {
+    .logo {
+        gap: 5px;
+    }
+}

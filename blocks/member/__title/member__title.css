@@ -1,0 +1,10 @@
+.member__title {
+    font-size: 20px;
+    opacity: 0.6;
+    margin-bottom: 18px;
+}
+@media (max-width: 375px) {
+    .member__title  {
+        margin-bottom: 20px;
+    }
+}

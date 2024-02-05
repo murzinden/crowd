@@ -1,0 +1,8 @@
+.member {
+    padding: 100px 0 120px 0;
+}
+@media (max-width: 375px) {
+    .member {
+        padding: 86px 0 155px 0;
+    }
+}

@@ -1,0 +1,11 @@
+.stages__container {
+    max-width: 1222px;
+    margin: 0 auto;
+    position: relative;
+}
+
+@media (max-width: 375px) {
+    .stages__container  {
+        max-width: 335px;
+    }
+}

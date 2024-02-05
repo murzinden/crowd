@@ -1,0 +1,13 @@
+.member__slider-btn_next {
+    background: #1F1F1F url("../../../../img/arrow-next.svg") center no-repeat;
+    right: 10px;
+}
+@media (max-width: 375px) {
+    .member__slider-btn_next {
+        right: 103px;
+    }
+}
+.member__slider-btn_next:hover {
+    background: #FBCE51 url("../../../../img/arrow-next.svg") center no-repeat;
+    transition: all .3s ease;
+}

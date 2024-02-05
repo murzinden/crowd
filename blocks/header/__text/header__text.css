@@ -1,0 +1,10 @@
+.header__text {
+    max-width: 542px;
+    color: #313131;
+    margin-top: 62px;
+}
+@media (max-width: 375px) {
+    .header__text {
+        margin-top: 40px;
+    }
+}

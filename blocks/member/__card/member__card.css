@@ -1,0 +1,12 @@
+.member__card {
+    flex: 0 0 33.3333%;
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+@media (max-width: 375px) {
+    .member__card  {
+        flex: 0 0 100%;
+    }
+}

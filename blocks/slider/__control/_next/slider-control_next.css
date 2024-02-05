@@ -1,0 +1,9 @@
+.slider__control.slider-control_next {
+    background: #1F1F1F url("../../../../img/arrow-next.svg") center no-repeat;
+    bottom: 0;
+    right: 40px;
+    transition: all .3s ease;
+}
+.slider__control.slider-control_next:hover {
+    background: #FBCE51 url("../../../../img/arrow-next.svg") center no-repeat;
+}

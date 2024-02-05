@@ -1,0 +1,11 @@
+
+.concept__text {
+    padding: 29px 0 0 0;
+    max-width: 765px;
+}
+@media (max-width: 375px) {
+    .concept__text {
+        padding: 0 0 0 0;
+        max-width: none;
+    }
+}

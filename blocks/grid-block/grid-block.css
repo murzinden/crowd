@@ -1,0 +1,22 @@
+
+.grid-block {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto auto auto;
+    gap: 20px;
+
+}
+@media (max-width: 375px) {
+    .grid-block {
+        display: flex;
+        transition: transform 0.3s ease-in-out;
+        gap: 0;
+    }
+}
+@media (min-width: 376px) {
+    .grid-block {
+        display: grid !important;
+        visibility: visible !important;
+        transform: none !important;
+    }
+}

@@ -1,0 +1,15 @@
+.stages__title {
+    max-width: 806px;
+    color: #313131;
+    font-family: 'Merriweather', serif;
+    font-size: 54px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    margin-bottom: 55px;
+}
+@media (max-width: 375px) {
+    .stages__title  {
+        font-size: 36px;
+        margin-bottom: 100px;
+    }
+}

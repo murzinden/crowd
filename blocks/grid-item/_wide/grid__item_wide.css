@@ -1,0 +1,4 @@
+.grid__item_wide {
+    grid-column: 2 / span 2;
+    grid-row: 3;
+}

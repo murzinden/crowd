@@ -1,0 +1,11 @@
+.member__image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 29px;
+}
+@media (max-width: 375px) {
+    .member__image  {
+        width: 244px;
+        height: 244px;
+    }
+}

@@ -1,0 +1,9 @@
+.game__box {
+    max-width: 704px;
+}
+@media (max-width: 375px) {
+    .game__box {
+        max-width: none;
+        margin-top: 25px;
+    }
+}

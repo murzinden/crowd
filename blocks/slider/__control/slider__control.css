@@ -1,0 +1,19 @@
+.slider__control {
+    display: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    background-color: #3057A2;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    z-index: 21;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    position: absolute;
+}
+@media (max-width: 375px) {
+    .slider__control {
+        display: block;
+    }
+}

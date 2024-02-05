@@ -1,0 +1,55 @@
+
+.game__grid {
+    display: grid;
+    grid-template-columns: repeat(2, 307px);
+    grid-template-areas:
+        "one six"
+        "two seven"
+        "three eight"
+        "four nine"
+        "five ten";
+    position: relative;
+}
+@media (max-width: 375px) {
+    .game__grid {
+        grid-template-columns: repeat(1, 307px);
+        grid-template-areas:
+        "one"
+        "six"
+        "two"
+        "seven"
+        "three"
+        "eight"
+        "four"
+        "nine"
+        "five"
+        "ten";
+    }
+}
+
+
+.game__paragraph:nth-child(1) { grid-area: one; }
+.game__paragraph:nth-child(2) { grid-area: two; }
+.game__paragraph:nth-child(3) { grid-area: three; }
+.game__paragraph:nth-child(4) { grid-area: four; }
+.game__paragraph:nth-child(5) { grid-area: five; }
+.game__paragraph:nth-child(6) { grid-area: six; }
+.game__paragraph:nth-child(7) { grid-area: seven; }
+.game__paragraph:nth-child(8) { grid-area: eight; }
+.game__paragraph:nth-child(9) { grid-area: nine; }
+.game__paragraph:nth-child(10) { grid-area: ten; }
+
+.game__grid:before {
+    content: "";
+    position: absolute;
+    background: url("../../../img/linesgroup.svg") 0 0 no-repeat;
+    width: 704px;
+    height: 250px;
+    top: 17px;
+    bottom: 0;
+}
+@media (max-width: 375px) {
+    .game__grid:before {
+        background: none;
+    }
+}

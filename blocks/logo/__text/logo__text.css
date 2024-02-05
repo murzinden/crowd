@@ -1,0 +1,14 @@
+.logo__text {
+    max-width: 147px;
+    color: #595653;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.08;
+    text-transform: uppercase;
+}
+@media (max-width: 375px) {
+    .logo__text {
+        max-width: 130px;
+        font-size: 14px;
+    }
+}

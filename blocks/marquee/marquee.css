@@ -1,0 +1,11 @@
+.marquee {
+    width: 100%;
+    height: 60px;
+    background-color: #F54932;
+    overflow: hidden;
+}
+@media (max-width: 375px) {
+    .marquee {
+        height: 38px;
+    }
+}

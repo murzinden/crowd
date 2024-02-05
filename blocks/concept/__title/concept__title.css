@@ -1,0 +1,12 @@
+.concept__title {
+    color: #313131;
+    font-family: 'Merriweather', serif;
+    font-size: 36px;
+    line-height: 1.35;
+    text-transform: uppercase;
+}
+@media (max-width: 375px) {
+    .concept__title {
+        font-size: 28px;
+    }
+}

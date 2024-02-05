@@ -1,0 +1,9 @@
+.footer__container {
+    max-width: 1222px;
+    margin: 0 auto;
+}
+@media (max-width: 375px) {
+    .footer__container {
+        max-width: 335px;
+    }
+}

@@ -1,0 +1,13 @@
+.header__title {
+    color: #313131;
+    font-family: 'Merriweather', serif;
+    font-size: 60px;
+    line-height: 1.1;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+@media (max-width: 375px) {
+    .header__title {
+        font-size: 36px;
+    }
+}

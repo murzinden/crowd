@@ -1,0 +1,12 @@
+.header__container {
+    max-width: 1222px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+}
+
+@media (max-width: 375px) {
+    .header__container {
+        max-width: 335px;
+    }
+}

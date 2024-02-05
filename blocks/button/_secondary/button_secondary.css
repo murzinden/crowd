@@ -1,0 +1,10 @@
+.button_secondary {
+    background-color: inherit;
+    border: 1px solid #1F1F1F;
+    color: #1F1F1F;
+}
+
+.button_secondary:hover {
+    background-color: #1F1F1F;
+    color: #fff;
+}

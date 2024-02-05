@@ -1,0 +1,18 @@
+.member__link {
+    border: 1px solid #3057A2;
+    border-radius: 62px;
+    color: #3057A2;
+    padding: 7px 11px;
+    text-align: center;
+    display: inline-block;
+    transition: all .3s ease;
+}
+
+.member__link:hover {
+    background-color: #3057A2;
+    color: #fff;
+}
+
+.no-animation {
+    transition: none;
+}

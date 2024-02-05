@@ -1,0 +1,9 @@
+.game__paragraph_padding {
+    opacity: 1;
+    padding-left: 15px;
+}
+@media (max-width: 375px) {
+    .game__paragraph_padding {
+        padding-left: 0;
+    }
+}

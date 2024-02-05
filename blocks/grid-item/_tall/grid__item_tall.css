@@ -1,0 +1,4 @@
+.grid__item_tall {
+    grid-column: 3;
+    grid-row: 1 / span 2;
+}

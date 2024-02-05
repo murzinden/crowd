@@ -1,0 +1,9 @@
+.concept__title-body {
+}
+@media (max-width: 375px) {
+    .concept__title-body {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+}

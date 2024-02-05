@@ -1,0 +1,9 @@
+.slider__control.slider-control_prev {
+    background: #1F1F1F url("../../../../img/arrow-prev.svg") center no-repeat;
+    bottom: 0;
+    left: 40px;
+    transition: all .3s ease;
+}
+.slider__control.slider-control_prev:hover {
+    background: #FBCE51 url("../../../../img/arrow-prev.svg") center no-repeat;
+}

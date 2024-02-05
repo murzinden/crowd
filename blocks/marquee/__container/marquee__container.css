@@ -1,0 +1,24 @@
+.marquee__container {
+    white-space: nowrap;
+    display: block;
+    position: relative;
+    line-height: 60px;
+    color: #fff;
+    font-size: 22px;
+    text-transform: uppercase;
+    animation: marquee 20s linear infinite;
+}
+@media (max-width: 375px) {
+    .marquee__container {
+        font-size: 16px;
+        line-height: 40px;
+    }
+}
+@keyframes marquee {
+    0% {
+        left: 100%;
+    }
+    100% {
+        left: -100%;
+    }
+}

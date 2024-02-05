@@ -1,0 +1,10 @@
+.member__container {
+    max-width: 1233px;
+    margin: 0 auto;
+    position: relative;
+}
+@media (max-width: 375px) {
+    .member__container {
+        max-width: 335px;
+    }
+}

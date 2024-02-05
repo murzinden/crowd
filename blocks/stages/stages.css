@@ -1,0 +1,8 @@
+.stages {
+    padding: 200px 0 100px 0;
+}
+@media (max-width: 375px) {
+    .stages   {
+        padding: 65px 0 100px 0;
+    }
+}
